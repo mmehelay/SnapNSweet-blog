@@ -1,0 +1,133 @@
+---
+title: 'Social Events'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'Social/'
+eleventyNavigation:
+    parent: Services
+    key: Social Events
+    order: 800
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/social.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Parties</span>
+        <div class="cs-breadcrumbs">
+            <a href="index.html" class="cs-link">Home</a>
+            <a href="social.html" class="cs-link cs-active">Social Events</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/Services/wedding-gda4f05a1e_1280_s_m.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/Services/wedding-gda4f05a1e_1280_s.jpg">
+        <img decoding="async" src="/assets/images/Services/wedding-gda4f05a1e_1280.jpg" alt="mechanic" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1095">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Party_s_m.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Party_s.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/Party.jpeg" alt="mechanic" width="542" height="608">
+            </picture>
+            <!--Eclipses-->
+         
+            <!--Stripe background-->
+            <img class="cs-stripes" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/stripes-long.svg" alt="stripes" width="522" height="608" aria-hidden="true">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Party Photobooth Services</span>
+            <h2 class="cs-title">Elevate the Fun with Our 360 Photobooth for Parties</h2>
+            <p class="cs-text">
+              Get ready to turn your social event into an unforgettable extravaganza with our 360 photobooth parties at Snap 'N Sweet. Whether it's a birthday bash, anniversary celebration, family reunion, or any special occasion worth rejoicing, our 360 photobooth will add a touch of magic and excitement, creating cherished memories for you and your guests.
+            </p>
+            <ul class="cs-list">
+                <li class="cs-li">Cutting-Edge Technology</li>
+                <li class="cs-li">Social Media Sharing</li>
+                <li class="cs-li">Lasting Memories</li>
+                <li class="cs-li">Stress-Free Booking</li>
+                <li class="cs-li">Customizable Backgrounds</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+                                
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-580">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/Services/wedding_s_m.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/Services/wedding_s_2.jpg">
+            <img loading="lazy" decoding="async" src="/assets/images/Services/wedding.jpeg" alt="room" width="494" height="700">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Why Us</span>
+            <h2 class="cs-title">Choose Our 360 Photobooth for Your Party</h2>
+            <p class="cs-text">
+              Elevate the fun and capture the essence of your social event with our immersive 360 photobooth experience. Watch as your guests get lost in a world of creativity and laughter, leaving them with unforgettable memories of your special day.
+            </p>
+            <p class="cs-text">
+              Make your social event uniquely yours by customizing the photobooth experience to match your theme and style. From a selection of backgrounds, props, and frames, your photos will tell a story that's true to your vision.
+            </p>
+            <a href="contact_us.html" class="cs-button-solid">Get Free Quote</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">Get It Done With Us Today</h2>
+            <p class="cs-text">
+               Experience an unforgettable social event filled with creativity, laughter, and cherished memories with our 360 photobooth.
+            </p>
+            <a href="booking.html" class="cs-button-solid">Book Your Photobooth</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="/assets/images/Services/Hero_s.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/Services/Hero_s.jpg">
+        <img loading="lazy" decoding="async" src="/assets/images/Services/Hero.jpeg" alt="cabinets" width="1920" height="1280" aria-hidden="true">
+    </picture>
+</section>
+
+
+
+{% endblock %}

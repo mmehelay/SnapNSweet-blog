@@ -1,14 +1,14 @@
 ---
-title: 'Pixel Perfect Websites'
+title: 'Snap N Sweet'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/landing.jpg'
+preloadImg: '/assets/images/Hero.jpeg'
 permalink: '/'
 eleventyNavigation:
   key: Home
   order: 100
 ---
 
-{% extends "layouts/base.html" %}
+{% extends "layouts/base2.html" %}
 
 {% block head %}
     <link rel="stylesheet" href="/css/local.css" />
@@ -35,315 +35,437 @@ eleventyNavigation:
 
 {% block body %}
 
-    <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
 
-    <section id="hero">
-        <div class="cs-container">
-            <div class="cs-flex-group">
-                <span class="cs-topper">mountain hiking society</span>
-                <h1 class="cs-title">Explore the World with Exciting People</h1>
-                <p class="cs-text">
-                    Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
-                </p>
-                <a href="/about" class="cs-button-solid">Explore More</a>
-                <a href="/contact" class="cs-button-transparent">
-                    <img
-                    class="cs-img"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-                    alt="play icon"
-                    width="17"
-                    height="17" />
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-
-        <!-- Background Image -->
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                  Services                    -->
-    <!-- ============================================ -->
-
-    <section id="services" class="services">
-        <!-- Get Icons From flaticon.com -->
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service1.svg"
-                alt="appliance"
-                width="48"
-                height="48" />
-            </picture>
-            <h2>Service 1</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service2.svg"
-                alt="appliance"
-                width="48"
-                height="48" />
-            </picture>
-            <h2>Service 2</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-        <div class="card">
-            <picture>
-                <img
-                aria-hidden="true"
-                decoding="async"
-                src="/assets/svgs/service3.svg"
-                alt="appliance"
-                width="48"
-                height="48" />
-            </picture>
-            <h2>Service 3</h2>
-            <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img 
-                    class="cs-quote-icon"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
-                    alt="gavel"
-                    width="136"
-                    height="77" />
-                </div>
-                <a href="/about" class="cs-button-solid">More About Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--            Extra Content To Rank             -->
-    <!-- ============================================ -->
-
-    <section id="sbs-r">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="560">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="560">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">SEO Ranking</span>
-                <h2 class="cs-title">Talk about a main service keyword</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos.
-                </p>
-                <a href="/blog" class="cs-button-solid">Read our Blog</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Gallery                    -->
-    <!-- ============================================ -->
-
-    <section id="gallery">
-        <div class="cs-container">
-            <span class="cs-topper">Our Portfolio</span>
-            <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-            <div class="cs-image-group">
-                <!-- Row 1-->
-                <div class="cs-row cs-row-1">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port1-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port1.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port1.jpg" alt="new hallway" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port4-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port4.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port4.jpg" alt="new home construction" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port7-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port7.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port7.jpg" alt="building a new wall" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 2 -->
-                <div class="cs-row cs-row-2">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port2-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port2.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port2.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port5-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port5.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port5.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port8-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port8.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port8.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-                </div>
-                <!-- Row 3 -->
-                <div class="cs-row cs-row-3">
-                    <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-                    <picture class="cs-picture cs-picture1">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port3-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port3.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port3.jpg" alt="new kitchen" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture2">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port6-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port6.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port6.jpg" alt="apartment addition" loading="lazy" width="400" height="560">
-                    </picture>
-                    <picture class="cs-picture cs-picture3">
-                        <source media="(max-width: 600px)" srcset="/assets/images/portfolio/port9-m.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/portfolio/port9.jpg">
-                        <img aria-hidden="true" decoding="async" src="/assets/images/portfolio/port9.jpg" alt="kew kitchen cabinets" loading="lazy" width="400" height="560">
-                    </picture>
-
-                </div>
-            </div>
-            <a href="/projects" class="cs-button-solid">View Full Gallery</a>
-        </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                   Reviews                    -->
-    <!-- ============================================ -->
-
-    <section id="reviews">
-        <div class="cs-container">
-            <span class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">Words From Our Customers</h2>
+<section id="hero-1060">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">The Ultimate 360 Photobooth in Toronto</h1>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.
+                 Come Experiance Toronto's Premier PhotoBooth Experience. Last-Minute Bookings Available!
             </p>
-            <ul class="cs-card-group">
-                <!-- Review 1 -->
-                <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80" />
+            <a href="booking.html" class="cs-button-solid">Confirm Your Spot</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/Home/icons8-phone.svg" alt="car" width="48" height="48">
+                </picture>
+                <h3 class="cs-h3">Instant Reservation</h3>
+                <p class="cs-item-text">
+                   Effortless booking, guaranteed availability for last-minute events, professional service with cutting-edge technology, versatile for all occasions.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/icons8-mobile-phone.svg" alt="car" width="48" height="48">
+                </picture>
+                <h3 class="cs-h3">Digital Output</h3>
+                <p class="cs-item-text">
+                    Every moment captured in our 360 photobooth deserves to be shared and cherished. That's why we offer seamless digital output options!
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/images/icons8-customize.svg" alt="car" width="48" height="48">
+                </picture>
+                <h3 class="cs-h3">Customizable Backgrounds</h3>
+                <p class="cs-item-text">
+                    We understand that every event is unique and deserves a touch of personalization. That's why we offer a customizable background features
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/Home/Hero_m.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/Home/Hero.jpeg">
+        <img decoding="async" src="/assets/images/Home/Hero.jpeg" alt="Photobooth Party" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-264">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Services</span>
+            <h2 class="cs-title">Our 360 Photobooth Experience in Toronto</h2>
+            <p class="cs-text">
+                At Snap 'n Sweet, we pride ourselves on providing an exceptional 360 photobooth experience for all your events in Toronto and surrounding areas. Our mission is to create unforgettable memories and add a touch of magic to your special occasions, whether it's a corporate event, wedding, birthday party, or any other celebration.
+            </p>
+            <a href="corporate.html" class="cs-button-solid">Our Services</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">Weddings</h3>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Home/wedding-gda4f05a1e_1280_m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Home/wedding-gda4f05a1e_1280_m1.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Home/wedding-gda4f05a1e_1280_m1.jpg" alt="Weddings" width="275" height="132">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <span class="cs-h3">Corporate</h3>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Home/Depositphotos_409465086_XL_m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Home/Depositphotos_409465086_XL_m1.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Home/Depositphotos_409465086_XL_m1.jpg" alt="Corporate" width="275" height="132">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Parties</h3>
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Home/Depositphotos_221000152_XL_m.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Home/Depositphotos_221000152_XL_m1.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/Home/Depositphotos_221000152_XL_m1.jpg" alt="Parties" width="275" height="132">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-1086">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Capturing Memories</span>
+            <h2 class="cs-title">Our 360 Photobooth Gallery</h2>
+        </div>
+        <div class="cs-image-group">
+                <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Home/Picture21.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Home/Picture21.png">
+                <img loading="lazy" decoding="async" src="/assets/images/Home/Picture21.png" alt="Nightime Party" width="345" height="345">
+            </picture>
+           <video controls class="cs-picture cs-picture2"  preload="metadata">
+                <source media="(max-width: 600px)" src="/assets/images/Videos/video (2).mp4#t=0.2">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" src="/assets/images/Videos/video (2).mp4#t=0.2">
+            </video>
+            <picture class="cs-picture cs-picture3">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Home/Photobooth.jpeg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Home/Photobooth.jpeg">
+                <img loading="lazy" decoding="async" src="/assets/images/Home/Photobooth.jpeg" alt="Photobooth" width="345" height="345">
+            </picture>
+             <video controls class="cs-picture cs-picture4"  preload="metadata">
+                <source media="(max-width: 600px)" src="/assets/images/Videos/video (5).mp4#t=0.2">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" src="/assets/images/Videos/video (5).mp4#t=0.2">
+            </video>
+            <picture class="cs-picture cs-picture5">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Home/Picture20.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Home//Picture20.png">
+                <img loading="lazy" decoding="async" src="/assets/images/Home/Picture20.png" alt="Couple Dancing" width="345" height="345">
+            </picture>
+            <picture class="cs-picture cs-picture6">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Home/Party.jpeg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Home/Party.jpeg">
+                <img loading="lazy" decoding="async" src="/assets/images/Home/Party.jpeg" alt="Girl Photobooth" width="345" height="345">
+            </picture>
+            <video controls class="cs-picture cs-picture7"  preload="metadata">
+                <source media="(max-width: 600px)" src="/assets/images/Videos/video (4).mp4#t=0.2">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" src="/assets/images/Videos/video (4).mp4#t=0.2" width="345" height="345">
+            </video>
+    <picture class="cs-picture cs-picture8">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Home/wedding.jpeg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Home/wedding.jpeg">
+                <img loading="lazy" decoding="async" src="/assets/images/Home/wedding.jpeg" alt="Wedding Photobooth" width="345" height="345">
+            </picture>
+        </div>
+
+
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<section id="stats-209">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Work with Us</span>
+            <h2 class="cs-title">Our Numbers Speak For Themselves</h2>
+            <p class="cs-text">
+               Our exceptional photobooth services in Toronto have earned us an impressive track record. We take pride in our customer satisfaction and the countless smiles we've captured at events throughout the city.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-number">10+</span>
+                <span class="cs-header">Years Experience</span>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">4</span>
+                <span class="cs-header">Experienced Staff</span>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">100+</span>
+                <span class="cs-header">Happy Clients</span>
+            </li>
+        </ul>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/bg.jpg" alt="brick wall" width="1920" height="1282" aria-hidden="true">
+    </picture>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-1089">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Read Customer Feedback</h2>
+            <p class="cs-text">
+               One of the best highlights to a party! Everyone loved the 360 booth and the owners are some of the friendliest people you will ever meet. Thanks again for such a great time!
+            </p>
+            <a href="contact_us.html" class="cs-button-solid">Contact Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-image" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/review1.png" alt="profile" width="112" height="112" aria-hidden="true" decoding="async" loading="lazy">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/quotes-2.svg" alt="icon" width="52" height="36" aria-hidden="true" decoding="async" loading="lazy">
+                <p class="cs-item-text">
+                    One of the best highlights to a party! Everyone loved the 360 booth and the owners are some of the friendliest people you will ever meet. Thanks again for such a great time!
+                </p>
+                <div class="cs-flex">
+                    <span class="cs-name">Shrijan Rajkarnikar</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <img class="cs-image" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/review2.png" alt="profile" width="112" height="112" aria-hidden="true" decoding="async" loading="lazy">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/quotes-2.svg" alt="icon" width="52" height="36" aria-hidden="true" decoding="async" loading="lazy">
+                <p class="cs-item-text">
+                    Had a chance to work with Snap 'n Sweet and I must say Melissa is amazing to work with!! Will definitely hire them again and recommend to everyone I know.
+                </p>
+                <div class="cs-flex">
+                    <span class="cs-name">Ilenne Lactam</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-1108">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ’s</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/Home/Photobooth.jpeg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/Home/Photobooth.jpeg">
+                <img loading="lazy" decoding="async" src="/assets/images/Home/Photobooth.jpeg" alt="360 Photobooth" width="522" height="400">
+            </picture>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           What is a 360 photobooth, and how does it work?
+                        </span>
+                    </button>
                     <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                        A 360 photobooth is a photo booth that captures images in a complete 360-degree view, creating dynamic and immersive photos. It works by using a specialized camera setup to capture images from all angles, which are then stitched together to form the final 360-degree photo.
                     </p>
-                    <span class="cs-reviewer">
-                        Jon Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16" />
                 </li>
-                <!-- Review 2 -->
-                <li class="cs-item">
-                    <img
-                    class="cs-item-img"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-                    alt="profile picture"
-                    width="80"
-                    height="80" />
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What types of events are 360 photobooths suitable for?
+                        </span>
+                    </button>
                     <p class="cs-item-p">
-                        Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa urna, volutpat orci imperdiet eget eget.
+                        360 photobooths are perfect for weddings, parties, corporate events, trade shows, product launches, and any occasion where you want to provide an engaging and memorable experience for guests.
                     </p>
-                    <span class="cs-reviewer">
-                        Jane Doe
-                        <span class="cs-desc">Homeowner</span>
-                    </span>
-                    <img
-                    class="cs-item-stars"
-                    aria-hidden="true"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg"
-                    alt="stars"
-                    width="96"
-                    height="16" />
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can the 360 photobooth be branded for my event or company?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Absolutely! 360 photobooths can be customized with event-specific branding, logos, themes, and colors, creating a seamless integration with your event's identity. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What type of venues can accommodate a 360 photobooth?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                       360 photobooths can fit in various venues, including event halls, hotel ballrooms, outdoor spaces, trade show booths, and even smaller indoor settings. Most setups are flexible and adaptable.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                           Can the 360 photobooth accommodate large groups of people?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                      Yes, many 360 photobooths are designed to fit groups of various sizes, from small gatherings to larger parties. They are perfect for capturing moments with friends and family.
+                    </p>
                 </li>
             </ul>
-            <a aria-label="read more reviews" href="/reviews" class="cs-button-solid">Our Reviews</a>
         </div>
-    </section>
+    </div>
+</section>
 
-    {% include 'components/cta.html' %}
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">Get It Done With Us Today</h2>
+            <p class="cs-text">
+                Are you ready to create unforgettable memories at your upcoming event? Look no further! Schedule Your Event Experience with us Today.
+            </p>
+            <a href="booking.html" class="cs-button-solid">Book Your Photobooth</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="/assets/images/Home/Hero_m2.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/Home/Hero_s.jpg">
+        <img loading="lazy" decoding="async" src="/assets/images/Home/Hero.jpeg" alt="cabinets" width="1920" height="1280" aria-hidden="true">
+    </picture>
+</section>
+
+       
+<!-- ============================================ -->
+<!--                   Blog                       -->
+<!-- ============================================ -->
+
+<section id="blog-846">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Blog</span>
+            <h2 class="cs-title">Latest News and Articles about 360 Photobooths and Events</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/corporate-blog_m.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/corporate-blog_m1.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/ImgBlog/corporate-blog_m1.jpg" alt="Corporate Photobooth" width="369" height="290">
+                </picture>
+                <div class="cs-item-content">
+                    <span class="cs-date">18 Jul, 2023</span>
+                    <h3 class="cs-h3">360 Photo Booths: Elevating Corporate Events with Interactive Branding</h3>
+                    <p class="cs-item-text">
+                        In the ever-evolving landscape of corporate events, engaging and interactive experiences have become paramount to leave a lasting impression on attendees
+                    </p>
+                    <a href="blog.html" class="cs-link">
+                        Read More
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/360-Blog_m.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/360-Blog_m1.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/ImgBlog/360-Blog_m1.jpg" alt="360 Photobooth" width="369" height="290">
+                </picture>
+                <div class="cs-item-content">
+                    <span class="cs-date">18 Jul, 2023</span>
+                    <h3 class="cs-h3">Capturing the Full Experience: Exploring the Magic of a 360 Photo Booth</h3>
+                    <p class="cs-item-text">
+                       While traditional photo booths have been a staple at gatherings, a new trend is taking the spotlight – the 360 photo booth. 
+                    </p>
+                    <a href="blog.html" class="cs-link">
+                        Read More
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/Toronto-blog_m.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/Toronto-blog_m1.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/ImgBlog/Toronto-blog_m1.jpg" alt="Toronto" width="369" height="290">
+                </picture>
+                <div class="cs-item-content">
+                    <span class="cs-date">18 Jul, 2023</span>
+                    <h3 class="cs-h3">Bringing Your Toronto Event to Life with a 360 Photo Booth Rental</h3>
+                    <p class="cs-item-text">
+                        Let's explore how bringing a 360 photo booth to your Toronto event can add an extra dimension of fun and engagement, making it an unforgettable experience for all.
+                    </p>
+                    <a href="blog.html" class="cs-link">
+                        Read More
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/marketing-blog_m.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/marketing-blog_m1.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/ImgBlog/marketing-blog_m1.jpg" alt="Marketing Photobooth" width="369" height="290">
+                </picture>
+                <div class="cs-item-content">
+                    <span class="cs-date">18 Jul, 2023</span>
+                    <h3 class="cs-h3">From Fun to Results: Unleashing the Power of Photobooth Marketing</h3>
+                    <p class="cs-item-text">
+                         From brand exposure and lead generation to social media reach, photobooth marketing unleashes the full potential of experiential marketing.
+                    </p>
+                    <a href="blog.html" class="cs-link">
+                        Read More
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <a href="blog.html" class="cs-button-solid">Our Blogs</a>
+    </div>
+</section>
+    
 {% endblock %}

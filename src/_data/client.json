@@ -1,15 +1,14 @@
 {
-	"name": "Code Stitch Web Designs",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"name": "Snap 'N Sweet",
+	"email": "info@snapnsweet.ca",
+	"phoneForTel": "647-779-7369",
+	"phoneFormatted": "(647) 779-7369",
 	"address": {
-		"lineOne": "First Address Line",
-		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
-		"zip": "80206",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"lineOne": "53 Kenfin Ave, Scarborough, ON M1S 4E8",
+		"city": "Toronto",
+		"state": "ON",
+		"zip": "M1S 4E8",
+		"mapLink": "https://www.google.com/maps/place/Scarborough,+ON+M1S+4E8/@43.8001795,-79.2949251,18z/data=!3m1!4b1!4m6!3m5!1s0x89d4d3de4fdc531d:0xf34d62fb114906df!8m2!3d43.8004496!4d-79.2921506!16s%2Fg%2F1tdq2396?entry=ttu"
 	},
 	"domain": "www.codestitch.app"
 }

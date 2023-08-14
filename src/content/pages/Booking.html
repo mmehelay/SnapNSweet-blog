@@ -1,0 +1,23 @@
+---
+title: 'Book Now'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'Booking/'
+---
+
+{% extends "layouts/base3.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/booking.css">
+{% endblock %}
+
+{% block body %}
+<div class="Calender">
+<!-- Calendly inline widget begin -->
+<div  class="calendly-inline-widget" data-url="https://calendly.com/info-mxo/booth-booking?primary_color=ef2b8b" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+</div>
+
+
+{% endblock %}

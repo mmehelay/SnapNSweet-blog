@@ -3,93 +3,95 @@ title: 'Contact'
 description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'contact/'
+eleventyNavigation:
+    key:    Contact
+    order: 600
 ---
 
-{% extends "layouts/base.html" %}
+{% extends "layouts/base3.html" %}
 
 {% block head %}
     <link rel="stylesheet" href="/css/contact.css">
 {% endblock %}
 
 {% block body %}
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
 
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
-
-    <section id="int-hero">
-        <h1 id="home-h">Contact Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                Contact Form                  -->
-    <!-- ============================================ -->
-
-    <section id="cs-contact">
-        <div class="cs-container">
-            <form id="cs-form" name="Contact Form" method="post">
-                <div class="cs-content">
-                    <span class="cs-topper">Contact</span>
-                    <h2 class="cs-title">Get in Touch</h2>
-                    <p class="cs-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
-                    </p>
-                </div>
-                <label>
-                    Name
-                    <input required type="text" id="name" name="name" placeholder="Name">
-                </label>
-                <label>
-                    Email
-                    <input required type="text" id="email" name="email" placeholder="Email">
-                </label>
-                <label>
-                    Phone
-                    <input required type="text" id="phone" name="phone" placeholder="Phone">
-                </label>
-                <label>
-                    How Did You Find Us
-                    <input type="text" id="find" name="find-us" placeholder="How did you find us?">
-                </label>
-                <label class="cs-label-message">
-                    Message
-                    <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
-                </label>
-                <button class="cs-button-solid" type="submit">Submit Message</button>
-            </form>
-            <div class="cs-right-section">
-                <!--Email-->
-                <span class="cs-header">Email</span>
-                <a class="cs-link" href="mailto:{{client.email}}">{{client.email}}</a>
-                <!--Phone-->
-                <span class="cs-header">Phone</span>
-                <a class="cs-link" href="tel:{{client.phoneForTel}}">{{client.phoneFormatted}}</a>
-                <!--Address-->
-                <span class="cs-header">Address</span>
-                <a class="cs-link" href="{{client.address.mapLink}}">
-                    {{client.address.lineOne}},
-                    <br />
-                    {{client.address.lineTwo}},
-                    <br />
-                    <span class="cs-block">
-                        {{client.address.city}}
-                        {{client.address.state}}
-                        {{client.address.zip}}
-                    </span>
-                </a>
-
-                <!-- Background Image-->
-                <picture class="cs-bg-picture">
-                    <source media="(min-width: 601px)" srcset="/assets/images/skyscraper.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/skyscraper.jpg" alt="building" loading="lazy" width="2500" height="1667">
-                </picture>
-
+<section id="cs-contact-240">
+    <div style="margin-top:50px" class="cs-container">
+        <div class="cs-left-section">
+            <div class="cs-content">
+                <span class="cs-topper">Contact</span>
+                <h2 class="cs-title">Elevate Your Event with a 360 Photobooth Experience</h2>
+                <p class="cs-text">
+                    Thank you for considering Snap 'N Sweet for your upcoming event! We're thrilled to bring the magic of our 360 photobooth to make your occasion truly unforgettable. Contact us today to discuss your event details and secure your immersive photobooth experience.
+                </p>
             </div>
+            <form id="cs-form-240" name="Contact Form" data-netlify="true" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-240" name="name" placeholder="Name">
+                </label>
+                <label class="cs-label">
+                    Email
+                    <input class="cs-input" required type="text" id="email-240" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label">
+                    Phone
+                    <input class="cs-input" required type="text" id="phone-240" name="phone" placeholder="Phone">
+                </label>
+                <label class="cs-label">
+                    How Did You Find Us
+                    <input class="cs-input" type="text" id="find-240" name="find-us" placeholder="How did you find us?">
+                </label>
+                <label class="cs-label cs-label-message">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-240" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Submit Message Now</button>
+            </form>
         </div>
-    </section>
+        <div class="cs-right-section">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:info@snapnsweet.ca" class="cs-link">info@snapnsweet.ca</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:(647) 779-7369" class="cs-link">(647) 779-7369</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="https://www.google.com/search?q=snapnsweet&sxsrf=AB5stBiFhRJ0Id6T_hSa0dDSH34N2DQBUQ%3A1690813062875&ei=hsLHZMSPNeOJptQPxJu5kAM&ved=0ahUKEwjE6vm_kbmAAxXjhIkEHcRNDjIQ4dUDCBA&uact=5&oq=snapnsweet&gs_lp=Egxnd3Mtd2l6LXNlcnAiCnNuYXBuc3dlZXQyBBAjGCcyBBAjGCcyBBAjGCcyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGAoyBxAAGIAEGApIkQdQ9QNY9QNwAXgBkAEAmAGAAaABgAGqAQMwLjG4AQPIAQD4AQHCAgcQIxiwAxgnwgIKEAAYRxjWBBiwA-IDBBgAIEGIBgGQBgk&sclient=gws-wiz-serp#lrd=0x89d4d38a146c408b:0x34df31ebdcc2dfe3,1,,,," class="cs-link">53 Kenfin Ave, Scarborough, ON M1S 4E8</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Picture -->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map-m.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.jpg">
+                <iframe loading="lazy" iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.6719536977985!2d-79.29492132391397!3d43.80041967109535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3dfb764ccbd%3A0x5f00bf35953807f0!2s53%20Kenfin%20Ave%2C%20Scarborough%2C%20ON%20M1S%204E8!5e0!3m2!1sen!2sca!4v1689887850594!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </picture>
+        </div>
+    </div>
+</section>
+
+ 
 {% endblock %}

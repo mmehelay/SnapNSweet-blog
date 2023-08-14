@@ -1,10 +1,10 @@
 ---
 title: 'About'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/cabinets2.jpg'
+preloadImg: '/assets/images/Depositphotos_221000152_XL.jpg'
 permalink: 'about/'
 eleventyNavigation:
-    key: About Us
+    key: About
     order: 200
 ---
 
@@ -16,61 +16,235 @@ eleventyNavigation:
 
 {% block body %}
     <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
-
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
-            </div>
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">About</span>
+        <div class="cs-breadcrumbs">
+            <a href="index.html" class="cs-link">Home</a>
+            <a href="about.html" class="cs-link cs-active">About</a>
         </div>
-    </section>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/About/Depositphotos_221000152_XL_a_m.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/About/Depositphotos_221000152_XL_a.jpg">
+        <img decoding="async" src="/assets/images/About/Depositphotos_221000152_XL.jpg" alt="mechanic" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
 
-    {% include 'components/cta.html' %}
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
 
+<section id="sbs-1095">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/About/Photobooth_a_m.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/About/Photobooth_a.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/About/Photobooth.jpeg" alt="mechanic" width="542" height="608">
+            </picture>
+            <!--Eclipses-->
+         
+            <!--Stripe background-->
+            <img class="cs-stripes" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/stripes-long.svg" alt="stripes" width="522" height="608" aria-hidden="true">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Who Are We</span>
+            <h2 class="cs-title">360 Photobooth in Toronto</h2>
+            <p class="cs-text">
+               Welcome to Snap 'N Sweet, the leading provider of 360 photobooth experiences in Toronto and beyond. We are passionate about creating unforgettable memories and delivering top-notch services to our valued clients.
+            </p>
+            <ul class="cs-list">
+                <li class="cs-li">Corporate 360 Photobooth experiances</li>
+                <li class="cs-li">Instant booking convienence and last minute photobooth booking availible</li>
+                <li class="cs-li">Customizable Backgrounds for Personalization</li>
+                <li class="cs-li">Client Testimonials That Speak for Themselves</li>
+                <li class="cs-li">Professional and Friendly team</li>
+            </ul>
+        </div>
+    </div>
+</section>
+            
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-1100">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/360-Blog_a_m.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/360-Blog_a.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/ImgBlog/360-Blog.jpeg" alt="appliance" width="323" height="447">
+            </picture>
+            <!--Bottom right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/corporate-blog_s.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/corporate-blog_s_m.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/ImgBlog/corporate-blog.jpg" alt="appliance" width="305" height="441">
+            </picture>
+            <!--Stripe background-->
+            <img class="cs-stripes" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/stripes-short.svg" alt="stripes" width="548" height="487" aria-hidden="true">
+            <!--Eclipses-->
+            <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/eclipses.svg" alt="stripes" width="140" height="140" aria-hidden="true">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Mission & Vision</span>
+            <h2 class="cs-title">Snap 'N Sweet Mission & Vision</h2>
+            <p class="cs-text">
+                We are driven by a relentless pursuit of excellence in all that we do. From the quality of our photobooths to the interactions with our clients, we are committed to providing a seamless and delightful experience from start to finish. Your satisfaction is our ultimate reward.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <h3 class="cs-h3">Mission Statement</h3>
+                    <p class="cs-li-text">
+                       Our mission is to redefine event photography through immersive and interactive 360 photobooth experiences. We strive to infuse joy, creativity, and lasting memories into every occasion, exceeding our clients' expectations with unparalleled service and innovation. With our passion for perfection, we aim to be the ultimate choice for those seeking the magic of a photobooth experience that leaves a lasting impression.
+                    </p>
+                </li>
+                <li class="cs-li">
+                    <h3 class="cs-h3">Our Vision</h3>
+                    <p class="cs-li-text">
+                       As pioneers in the photobooth industry, our vision is to continue leading the way in technological advancements and creative solutions. We envision a future where our 360 photobooths become an integral part of every event, providing guests with immersive experiences that capture the essence of life's most cherished moments. We aspire to expand our reach and become the go-to name for photobooth services, trusted by individuals and businesses alike for delivering exceptional experiences that surpass expectations.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+            
+<!-- ============================================ -->
+<!--                   Stats                      -->
+<!-- ============================================ -->
+
+<!-- No headers, so no section tag -->
+<div id="stats-340">
+    <ul class="cs-card-group">
+ 
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/mop-gold.svg" alt="icon" width="40" height="35" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">100+</span>
+                <span class="cs-desc">Projects Completed</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/thumbs-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">400+</span>
+                <span class="cs-desc">Satisfied Clients</span>
+            </div>
+        </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+                <img class="cs-icon" src="https://csimg.nyc3.digitaloceanspaces.com/Stats/award2-gold.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+            </picture>
+            <div class="cs-flex-group">
+                <span class="cs-number">2</span>
+                <span class="cs-desc">Awards Won</span>
+            </div>
+        </li>
+    </ul>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/ImgBlog/corporate-blog_a_m.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/ImgBlog/corporate-blog_a.jpg">
+        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/ImgBlog/corporate-blog.jpg" alt="mechanic" width="1920" height="283">
+    </picture>
+</div>
+          
+
+
+
+<!-- ============================================ -->
+<!--                   Pricing                    -->
+<!-- ============================================ -->
+
+<section id="pricing-1103">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Affordable Pricing Plans</h2>
+            <p class="cs-text">
+               Please note that the pricing for the Premium Package is customizable and will vary based on the specific requirements and duration of the event. For a personalized quote and to discuss how our Premium Package can elevate your event to the next level, kindly contact us. We look forward to creating an unforgettable photobooth experience tailored to your unique needs.
+            </p>
+            <a href="contact_us.html" class="cs-button-solid">Contact Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-package">Standard Package</span>
+                <span class="cs-price">$799.99</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        Up to 2 hours of 360 photobooth rental
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        High-resolution digital photos for instant sharing
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Video booth option to capture heartfelt messages from guests
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Perfect for birthday parties, small gatherings, and intimate events
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                     <li class="cs-li">
+                        Online gallery for easy access to event memories
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+
+                </ul>
+            </li>
+            <li class="cs-item">
+                <span class="cs-package">Premium Package</span>
+                <span class="cs-price">Contact Us</span>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        Up to 4 hours of 360 photobooth rental
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Custom-designed props and backdrops to match your theme
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Additional interactive features and special effects
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Onsite guestbook station for guests to leave personal messages
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Priority access to the latest photobooth technology upgrades
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                    <li class="cs-li">
+                        Ideal for weddings, corporate galas, grand celebrations, and large-scale events
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-check.svg" alt="checkmark" width="18" height="18">
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
 {% endblock %}
