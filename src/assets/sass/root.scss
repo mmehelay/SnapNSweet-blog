@@ -707,15 +707,27 @@
             gap: calc(24 / 16 * 1rem);
             position: relative;
         }
+		
+		.hidden {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
 
         .cs-toggle {
             display: none;
         }
 
         .cs-logo {
-            width: 18.4%;
-            max-width: calc(350 / 16 * 1rem);
-            height: calc(32 / 16 * 1rem);
+			width: 18.4%;
+			max-width: 12.3125rem;
+			height: 3.75rem;
             /* margin-right auto pushes everything away from it to the right */
             margin: 0 auto 0 0;
             padding: 0;
