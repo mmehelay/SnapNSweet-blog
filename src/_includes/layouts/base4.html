@@ -38,11 +38,10 @@
     {% endif %}
 
     <!-- Sitewide Stylesheets and Scripts -->
-    <link rel="stylesheet" href="/css/local2.css">
+    <link rel="stylesheet" href="/css/local3.css">
     <link rel="stylesheet" href="/css/dark.css">
     <script defer src="/assets/js/nav.js"></script>
     <script defer src="/assets/js/dark.js"></script>
-    <script defer src="/assets/js/faq.js"></script>
 
     {% block head %}{% endblock %}
 
@@ -72,11 +71,9 @@
     <!--Screen reader skip main nav-->
     <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
 
-    {% include "components/header2.html" %}
+    {% include "components/header.html" %}
     <main id="main">
       {% block body %}{% endblock %}
     </main>
-    {% include "components/footer1.html" %}
-
   </body>
 </html>

@@ -1,0 +1,27 @@
+
+
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+
+	.Calender{
+		padding-top: 100px;
+	  }
+
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+	.Calender{
+		padding-top: 20px;
+	  }
+	
+	
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+	.Calender{
+		padding-top: 60px;
+	  }
+}
