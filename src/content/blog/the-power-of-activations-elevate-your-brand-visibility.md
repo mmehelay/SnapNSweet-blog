@@ -1,5 +1,5 @@
 ---
-title: "The Power of Activations: Elevate Your Brand Visibility"
+title: "The Power of Activations: Your Brand Visibility"
 description: In the dynamic landscape of marketing, creating a lasting
   impression is key to capturing the attention of your target audience.
   Activations have emerged as a powerful strategy, providing brands with the
