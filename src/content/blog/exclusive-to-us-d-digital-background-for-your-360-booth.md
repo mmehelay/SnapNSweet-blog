@@ -1,5 +1,5 @@
 ---
-title: "Exclusive to us:  #D Digital Background for your 360 booth!"
+title: "Exclusive to us:  3D Digital Background for your 360 booth!"
 description: 360 Digital background
 author: Admin
 date: 2024-07-10T02:43:19.811Z
